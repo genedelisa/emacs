@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: condp
+# key: condp
+# binding: direct-keybinding
+# expand-env: ((some-var some-value))
+# type: command
+# --
+(condp ${1:pred} ${2:expr}
+  $0)
